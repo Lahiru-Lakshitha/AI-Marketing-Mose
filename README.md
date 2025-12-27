@@ -1,73 +1,137 @@
-# Welcome to your Lovable project
+# 🚀 MarketAI – AI Digital Marketing Assistant
 
-## Project info
+MarketAI is a modern SaaS-style AI application designed to help marketers, creators, and businesses generate high-quality digital marketing content in seconds.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+It provides AI-powered tools for **social media captions**, **Google Ads copy**, and **SEO keyword generation**, with secure authentication and saved history for each user.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌐 Live Demo
 
-**Use Lovable**
+🔗 **Live App:**  
+https://ai-marketing-mose.vercel.app
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🔗 **GitHub Repository:**  
+https://github.com/Lahiru-Lakshitha/AI-Marketing-Mose
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🔐 Authentication
+- Email & password signup and login
+- Secure user sessions
+- User-specific data isolation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🤖 AI Marketing Tools
+- **Social Media Captions**
+  - Generate engaging captions for Instagram, Twitter, LinkedIn, and more
+- **Google Ads Copy**
+  - Create high-converting ad headlines and descriptions
+- **SEO Keywords**
+  - Discover relevant, high-impact keywords for better rankings
 
-Follow these steps:
+### 💾 Save & History
+- Save generated content with one click
+- View full generation history
+- Edit saved content
+- Persistent storage per user
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🎨 User Experience
+- Clean, modern SaaS UI
+- Dark mode design
+- Loading skeletons and success/error notifications
+- Responsive for desktop and mobile
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🖼️ Screenshots
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+> _(Add screenshots by placing images inside a `/screenshots` folder and updating the paths below)_
 
-**Edit a file directly in GitHub**
+### 🔐 Login Page
+![Login Page](./screenshots/login.png)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 📊 Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-**Use GitHub Codespaces**
+### 🤖 AI Content Generation
+![AI Tools](./screenshots/ai-tools.png)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 📜 History Page
+![History](./screenshots/history.png)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🧭 How to Use the App
 
-- Vite
-- TypeScript
+1. **Sign Up / Log In**
+   - Create a new account using your email and password
+
+2. **Choose a Tool**
+   - Social Media Captions  
+   - Google Ads Copy  
+   - SEO Keywords  
+
+3. **Generate Content**
+   - Enter your prompt
+   - Select tone (if available)
+   - Click Generate
+
+4. **Save Results**
+   - Click “Save” to store content in your history
+
+5. **View History**
+   - Access all saved generations
+   - Edit or reuse content anytime
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- shadcn/ui
 
-## How can I deploy this project?
+### Backend & Services
+- Cloud-based authentication
+- Cloud database with row-level security
+- AI-powered edge functions
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Deployment
+- Frontend hosted on **Vercel**
+- Backend services managed via cloud infrastructure
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ⚙️ Environment Variables
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+To run this project locally, configure the following environment variables:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+``env
+VITE_SUPABASE_URL=your_project_url
+VITE_SUPABASE_ANON_KEY=your_public_anon_key
+
+🧑‍💻 Run Locally
+#Clone the repository
+git clone https://github.com/Lahiru-Lakshitha/AI-Marketing-Mose.git
+
+# Navigate to project directory
+cd AI-Marketing-Mose
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+👤 Author
+👤 Author
+
+Lahiru Lakshitha
+📧 Email: lahirulakshithamax00@gmail.com
+🌐 Portfolio: https://lahiru-lakshitha.github.io
+💼 GitHub: https://github.com/Lahiru-Lakshitha
