@@ -47,8 +47,6 @@ https://github.com/Lahiru-Lakshitha/AI-Marketing-Mose
 
 ## 🖼️ Screenshots
 
-> _(Add screenshots by placing images inside a `/screenshots` folder and updating the paths below)_
-
 ### 🔐 Login Page
 ![Login Page](./screenshots/login.png)
 
